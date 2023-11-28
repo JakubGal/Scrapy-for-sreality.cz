@@ -5,6 +5,9 @@ Use scrapy framework to scrape the first 500 items (title, image url) from sreal
 1. Run "docker-compose up"
 2. Open http://127.0.0.1:8080 in your favorite browser
 
-# Creadit
+I schould look something like this:
+![Image of website](https://drive.google.com/file/d/10OaSSiEWsPuwW3EY91SLkthPNjDUb63V/view?usp=sharing)
+
+# Credit
 Hardly based on this repository with few things fixed:
 https://github.com/Honzama/sreality-scrapy-task
