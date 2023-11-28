@@ -6,7 +6,7 @@ Use scrapy framework to scrape the first 500 items (title, image url) from sreal
 2. Open http://127.0.0.1:8080 in your favorite browser
 
 I schould look something like this:
-![Image of website](https://drive.google.com/file/d/10OaSSiEWsPuwW3EY91SLkthPNjDUb63V/view?usp=sharing)
+![Image of website](https://github.com/JakubGal/Scrapy-for-sreality.cz/assets/44644846/5d7c738e-2c15-4250-9c70-749a2569b5ee)
 
 # Credit
 Hardly based on this repository with few things fixed:
