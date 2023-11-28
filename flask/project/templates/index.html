@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<title>Luxonis Sreality Scrapy Task</title>
+</head>
+
+<style>
+    div.flats {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    div.flat {
+        height: 25%;
+        width: 22%;
+    }
+</style>
+
+<body>
+    <h1>500 flats from sreality.cz </h1>
+
+	<div class="flats">
+        {% for flat in flats %}
+
+		<div class="flat">
+            <img src={{ flat.get('image_url') }}>
+			<h2>{{ flat.get('title') }}</h2>
+		</div>
+
+        {% endfor %}
+	</div>
+
+</body>
+</html>
